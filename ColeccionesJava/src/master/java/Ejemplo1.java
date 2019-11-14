@@ -58,5 +58,19 @@ public class Ejemplo1 {
 			System.out.println(linea);
 		}
 	}
+	public static void procesarTexto() {
+		String nombreArchivo="I:\\Proyectos\\datasets\\montecristo.txt";
+		String texto=Fichero.leerTextoArchivo(nombreArchivo);
+		ArrayList<String> palabras= new ArrayList<String>();
+		for (String palabra : texto.split(" ,;:-\\")){
+			palabras.add(palabra);
+		ArrayList<Integer> caracteres= new ArrayList<Integer>();
+		for (String palabrita: palabras) {
+			caracteres.add(palabrita.length());
+		}
+		//palabras que no esten repetidas del texto montecristo
+		}
+	}
+	
 	
 }
