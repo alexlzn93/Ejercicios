@@ -68,7 +68,7 @@ public class Ejemplo1 {
 		for (String palabrita: palabras) {
 			caracteres.add(palabrita.length());
 		}
-		//palabras que no esten repetidas del texto montecristo
+	
 		}
 	}
 	
