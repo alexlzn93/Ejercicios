@@ -8,5 +8,11 @@ public class Mates implements IOperacion {
 		return (int)Math.pow(numero, 3);
 		
 	}
+
+	@Override
+	public int division(int numero1, int numero2) {
+		
+		return numero1/numero2;
+	}
 	
 }
